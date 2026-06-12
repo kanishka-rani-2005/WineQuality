@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: WineQuality
+Version: 0.0.0
+Summary: A small python pck for ml app
+Home-page: https://github.com/kanishka-rani-2005/WineQuality
+Author: kanishka-rani-2005
+Author-email: kanishka22043@gmail.com
+Project-URL: Bug Tracker, https://github.com/kanishka-rani-2005/WineQuality/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# ML PROJECT END TO END  
