@@ -1,1 +1,83 @@
 [2026-06-12 19:37:28,972:INFO:main:welcome]
+[2026-06-12 20:56:08,416:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-12 20:56:08,423:INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-12 20:56:43,298:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-12 20:56:43,300:INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-12 20:58:01,603:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-12 20:58:01,607:INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-12 20:58:05,655:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-12 20:58:05,655:INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-12 20:58:43,231:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-12 20:58:43,233:INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-12 20:59:48,543:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-12 21:00:44,252:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-12 21:01:37,275:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-12 21:01:37,278:INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-12 21:01:37,281:INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-06-12 21:02:43,439:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-12 21:02:43,441:INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-12 21:02:43,444:INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-06-12 21:02:43,446:INFO:common:created directory at: artifacts]
+[2026-06-12 21:02:43,448:INFO:common:created directory at: artifacts/data_ingestion]
+[2026-06-12 21:02:45,465:INFO:4087490991:artifacts/data_ingestion/data.zip download! with following info:
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FC06:CEEBC:1F498E:3FB0AC:6A2C269C
+Accept-Ranges: bytes
+Date: Fri, 12 Jun 2026 15:32:45 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del-vibw2260027-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1781278365.328037,VS0,VE300
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6c405c09a59e66f4437f33c45a54c9be2ec2c784
+Expires: Fri, 12 Jun 2026 15:37:45 GMT
+Source-Age: 0
+
+]
+[2026-06-12 21:13:39,951:INFO:main:welcome]
+[2026-06-12 21:13:39,952:INFO:main:>>>>>>>>>>>>>>>>>>>>> Stage Data Ingestion stage started >>>>>>>>>>>>>>>>>>>>>>>>>>]
+[2026-06-12 21:13:39,954:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-06-12 21:13:39,955:INFO:common:yaml file: params.yaml loaded successfully]
+[2026-06-12 21:13:39,956:INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-06-12 21:13:39,957:INFO:common:created directory at: artifacts]
+[2026-06-12 21:13:39,957:INFO:common:created directory at: artifacts/data_ingestion]
+[2026-06-12 21:13:41,393:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info:
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FC06:CEEBC:1F498E:3FB0AC:6A2C269C
+Accept-Ranges: bytes
+Date: Fri, 12 Jun 2026 15:43:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del-vibw2260035-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1781279021.262515,VS0,VE268
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9c16e89564344a3d9161b4cc47a733cc418f53fd
+Expires: Fri, 12 Jun 2026 15:48:41 GMT
+Source-Age: 0
+
+]
+[2026-06-12 21:13:41,396:INFO:main:>>>>>>>>>>>>>>>>>>>>> Stage Data Ingestion stage completed >>>>>>>>>>>>>>>>>>>>>>>>]

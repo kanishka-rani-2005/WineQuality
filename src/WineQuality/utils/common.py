@@ -28,6 +28,14 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     try:
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
+
+            print("FILE:", path_to_yaml)
+            print("TYPE:", type(content))
+            print("CONTENT:", content)
+            if not isinstance(content, dict):
+                raise ValueError(
+                    f"{path_to_yaml} must contain a YAML mapping (dictionary), got {type(content)}"
+                )
             logger.info(f"yaml file: {path_to_yaml} loaded successfully")
             return ConfigBox(content)
     except BoxValueError:
@@ -38,7 +46,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
 
 
 @ensure_annotations
-def create_directories(path_to_directories: List[Path], verbose:bool=True):
+def create_directories(path_to_directories: list, verbose=True):
     """create list of directories
 
     Args:
