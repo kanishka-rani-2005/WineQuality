@@ -31,7 +31,3 @@ $env:MLFLOW_TRACKING_USERNAME="<username>"
 
 $env:MLFLOW_TRACKING_PASSWORD="YOUR_DAGSHUB_TOKEN"
 
-
-
-
-277426080152.dkr.ecr.us-east-1.amazonaws.com/winequalityproject
