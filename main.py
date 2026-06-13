@@ -5,6 +5,7 @@ from WineQuality.pipeline.stage_03_data_transformation import DataTransformation
 from WineQuality.pipeline.stage_04_model_trainer import ModelTrainingPipeline
 from WineQuality.pipeline.stage_05_model_evaluation import ModelEvaluationPipeline
 
+logger.info("WELCOME")
 
 STAGE_NAME="Data Ingestion stage"
 try:
