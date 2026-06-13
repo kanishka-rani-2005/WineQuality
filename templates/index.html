@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Wine Quality Prediction</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+
+<nav id="mainNav">
+    <div class="logo">
+        🍷 Wine Quality Predictor
+    </div>
+</nav>
+
+<header class="hero">
+
+    <div class="hero-content">
+
+        <h1>Wine Quality Prediction</h1>
+
+        <p>
+            Enter wine characteristics and predict its quality using Machine Learning
+        </p>
+
+    </div>
+
+</header>
+
+<section class="form-section">
+
+    <form class="glass-card form-detail" action="/predict" method="POST">
+
+        <h2>Wine Information</h2>
+
+        <div class="form-grid">
+
+            <div class="input-group">
+                <label>Fixed Acidity</label>
+                <input type="text" name="fixed_acidity" class="input-text" required>
+            </div>
+
+            <div class="input-group">
+                <label>Volatile Acidity</label>
+                <input type="text" name="volatile_acidity" class="input-text" required>
+            </div>
+
+            <div class="input-group">
+                <label>Citric Acid</label>
+                <input type="text" name="citric_acid" class="input-text" required>
+            </div>
+
+            <div class="input-group">
+                <label>Residual Sugar</label>
+                <input type="text" name="residual_sugar" class="input-text" required>
+            </div>
+
+            <div class="input-group">
+                <label>Chlorides</label>
+                <input type="text" name="chlorides" class="input-text" required>
+            </div>
+
+            <div class="input-group">
+                <label>Free Sulfur Dioxide</label>
+                <input type="text" name="free_sulfur_dioxide" class="input-text" required>
+            </div>
+
+            <div class="input-group">
+                <label>Total Sulfur Dioxide</label>
+                <input type="text" name="total_sulfur_dioxide" class="input-text" required>
+            </div>
+
+            <div class="input-group">
+                <label>Density</label>
+                <input type="text" name="density" class="input-text" required>
+            </div>
+
+            <div class="input-group">
+                <label>pH</label>
+                <input type="text" name="pH" class="input-text" required>
+            </div>
+
+            <div class="input-group">
+                <label>Sulphates</label>
+                <input type="text" name="sulphates" class="input-text" required>
+            </div>
+
+            <div class="input-group">
+                <label>Alcohol</label>
+                <input type="text" name="alcohol" class="input-text" required>
+            </div>
+
+        </div>
+
+        <button type="submit" class="register">
+            Predict Quality
+        </button>
+
+    </form>
+
+</section>
+
+<script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+
+</body>
+</html>

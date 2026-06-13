@@ -53,8 +53,8 @@ class ModelEvaluation:
             mlflow.log_metric("r2",r2)
 
             if tracking_url_type_store!='file':
-                mlflow.sklearn.log_model(model,"model",registered_model_name='ElasticNetmodel')
+                mlflow.sklearn.log_model(model,"model")
             else:
-                mlflow.sklearn.log_model(model,"model",registered_model_name='model')
+                mlflow.sklearn.log_model(model,"model")
 
             
